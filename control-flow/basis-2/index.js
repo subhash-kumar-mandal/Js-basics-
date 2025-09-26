@@ -70,4 +70,12 @@ if(time>=0 && time<=11){
     console.log("Good Night")
 }
 
-
+// 5. check number divisble . 
+let check = 15 ;
+if(check%3==0 && check%5==0){
+    console.log("divisble by 3 and 5")
+}else if(check%3===0){
+    console.log("divisble by 3")
+}else if(check%5===0){
+    console.log("divisble by 5 ")
+}
