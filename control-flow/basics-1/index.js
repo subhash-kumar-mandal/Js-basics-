@@ -45,3 +45,5 @@ if(stri ==="red"){
 }else if(stri ==="Yello"){
     console.log("Ready")
 }
+
+

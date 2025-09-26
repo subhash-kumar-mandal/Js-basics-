@@ -79,3 +79,18 @@ if(check%3==0 && check%5==0){
 }else if(check%5===0){
     console.log("divisble by 5 ")
 }
+
+
+let temp = "50";
+
+if(temp<0){
+    console.log("Freezing")
+} else if(temp>=1 && temp <=15){
+    console.log("Cold")
+}else if(temp>=16 && temp <=30){
+    console.log("Normal")
+}else if(temp>=31 && temp <=40){
+    console.log("Hot")
+}else {
+    console.log("very hot")
+}
