@@ -55,3 +55,19 @@ if(monthnum ===1){
 }else if(monthnum ===12){
     console.log("December")
 }
+
+
+// 4.  time  in 24hr format (0-23) print . 
+let time = 23 ;
+
+if(time>=0 && time<=11){
+    console.log("Good morning")
+}else if(time>=12 && time<=17){
+    console.log("Good Afternoon")
+}else if(time>=18 && time<=20){
+    console.log("Good Evening")
+}else if(time>=21 && time<=23){
+    console.log("Good Night")
+}
+
+
