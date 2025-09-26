@@ -34,3 +34,14 @@ if(str ===""){
 }else{
     console.log("sting is fill")
 }
+
+// 5. traffic light check 
+let stri = "red";
+
+if(stri ==="red"){
+    console.log("Stop")
+} else if(stri ==="green"){
+    console.log("GO")
+}else if(stri ==="Yello"){
+    console.log("Ready")
+}
