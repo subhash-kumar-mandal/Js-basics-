@@ -61,3 +61,9 @@ let str = "helloworld";
 for(let i=0;i<str.length;i++){
     console.log(str[i])
 }
+
+// 10. print array all element . 
+let arra = [1,2,3,4,5,6];
+for(let i=0;i<arra.length;i++){
+    console.log(arra[i])
+}
