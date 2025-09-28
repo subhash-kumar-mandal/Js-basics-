@@ -57,3 +57,7 @@ for(let i=1;i<50;i++){
 
 
 // 9.  print any string all alphabet. 
+let str = "helloworld";
+for(let i=0;i<str.length;i++){
+    console.log(str[i])
+}
