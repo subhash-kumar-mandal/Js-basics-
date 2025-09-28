@@ -27,3 +27,8 @@ for(let i= 10;i>=1;i--){
     console.log(i)
 }
 
+// 5. n number ka table print karo . 
+let n = 5 ;
+for(let i=1;i<=10;i++){
+    console.log(i*n)
+}
