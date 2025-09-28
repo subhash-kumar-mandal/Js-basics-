@@ -32,3 +32,19 @@ let n = 5 ;
 for(let i=1;i<=10;i++){
     console.log(i*n)
 }
+
+// 6 . 1 to 10 number ka sum find ? 
+let sum = 0 ;
+for(let i=1;i<=10;i++){
+    sum += i
+}
+// console.log(sum)  // 55 
+
+
+// 7. find factorial 1 to  10  number . 
+let factorial = 1
+for(let i=1;i<=10;i++){
+    factorial = factorial*i
+    console.log(`${i} factorial -> ${factorial}`)
+}
+
