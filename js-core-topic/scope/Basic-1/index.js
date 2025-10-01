@@ -17,7 +17,6 @@ function test() {
   console.log(b); // 20
   console.log(c); // 30
 }
-
 test();
 console.log(a); // 10
 console.log(b); // 20
