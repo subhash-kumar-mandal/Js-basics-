@@ -14,3 +14,22 @@
     var a = 20;      // re-declare allowed
         a = 30;     // update allowed
    console.log(a); // 30
+
+
+
+// -----------> let 
+//     . Modern way (ES6 से आया)।
+//     . Block scoped → {} के बाहर access नहीं कर सकते।
+//     . Re-declare ❌, Update ✅
+//     . Hoisting होती है लेकिन temporal dead zone की वजह से declare करने से पहले use नहीं कर सकते।
+
+          let x = 10;
+       // let x = 20; ❌ error (re-declare)
+              x = 30;  // update allowed
+         console.log(x); // 30
+
+      if(true){
+         let y = 50;
+       console.log(y); // 50
+        }
+    // console.log(y); // ❌ error (block के बाहर)
