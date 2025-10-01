@@ -33,3 +33,16 @@
        console.log(y); // 50
         }
     // console.log(y); // ❌ error (block के बाहर)
+
+
+// -----------> const
+        // . block scoped
+        // . Declare करते समय ही value देनी पड़ती है।
+        // . Re-declare ❌, Update ❌ (लेकिन array/object की content change कर सकते हो)
+     
+        const z = 5;
+           // z = 10; ❌ error
+        const arr = [1, 2, 3];
+              arr.push(4); // ✅ allowed
+        console.log(arr); // [1,2,3,4]
+
