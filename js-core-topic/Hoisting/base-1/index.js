@@ -28,3 +28,15 @@
     let b = 20;
     console.log(b); // 20
 
+
+// 3. const Hoisting
+//    const भी hoist होता है और TDZ में रहता है।
+//    लेकिन फर्क ये है कि declare करते ही value देना compulsory है।
+
+
+// console.log(c); // ❌ ReferenceError (TDZ)
+const c = 30;
+console.log(c); // 30
+
+
+
