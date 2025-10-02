@@ -60,7 +60,6 @@ var sayHi = function() {
 
 // 👉 Arrow Function भी hoist नहीं होता (let/const की तरह behave करता है)।
 
-
  sayBye(); // ❌ ReferenceError
 const sayBye = () => {
     console.log("Bye Subhash!");
