@@ -24,7 +24,7 @@
 //    let भी hoist होता है, लेकिन उसे value assign नहीं होती।
 //    इसलिए जब तक execution उस line पर नहीं पहुँचता, तब तक variable Temporal Dead Zone (TDZ) में रहता है।
 
-    console.log(b); // ❌ ReferenceError (TDZ)
+    // console.log(b); // ❌ ReferenceError (TDZ)
     let b = 20;
     console.log(b); // 20
 
