@@ -48,7 +48,6 @@ fn();  // 1
 fn();  // 2
 fn();  // 3
 
-
         // 1. outer() call होने के बाद normally उसका variable counter खत्म हो जाना चाहिए।
         // 2. लेकिन क्योंकि inner() उस counter को use कर रहा है, JS उसे "remember" करके रखती है।
         // 3. इसी को कहते हैं Closure → function + उसके आसपास का environment (variables)।
