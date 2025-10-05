@@ -29,3 +29,18 @@ let check = (input1) => {
 }
 
 check("a")
+
+
+
+// 3. दो नंबर लो और चेक करो equal हैं या कौन बड़ा है। 
+
+let num1 = 10;
+let num2 =10;
+
+if(num1===num2){
+    console.log("numbers equal");
+}else if(num1>num2){
+    console.log(`${num1} bada hai ${num2} se`)
+}else{
+      console.log(`${num2} bada hai ${num1} se`)
+}
