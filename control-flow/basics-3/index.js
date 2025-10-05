@@ -44,3 +44,18 @@ if(num1===num2){
 }else{
       console.log(`${num2} bada hai ${num1} se`)
 }
+
+
+
+// 4. age लो और life stage बताओ:
+
+let age = 10;
+if(age<13){
+    console.log("Child")
+}else if(age>=13 && age<=19){
+    console.log("Teen")
+}else if(age>=20 && age<=59){
+    console.log("Adlut")
+}else{
+    console.log("Senior citizen")
+}
