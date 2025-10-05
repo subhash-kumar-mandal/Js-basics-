@@ -59,3 +59,21 @@ if(age<13){
 }else{
     console.log("Senior citizen")
 }
+
+
+// 5.check number prime ?
+
+
+let find = (check) =>{
+let condition = true
+for(let j=2;j<check;j++){
+    if(check%2===0){
+      console.log("not prime")
+      condition =false
+      break;
+    }
+}
+if(condition) console.log("yes prime")
+}
+
+find(7)
