@@ -55,7 +55,7 @@ if(age<13){
 }else if(age>=13 && age<=19){
     console.log("Teen")
 }else if(age>=20 && age<=59){
-    console.log("Adlut")
+    console.log("Adult")
 }else{
     console.log("Senior citizen")
 }
@@ -67,7 +67,7 @@ if(age<13){
 let find = (check) =>{
 let condition = true
 for(let j=2;j<check;j++){
-    if(check%2===0){
+    if(check%j===0){
       console.log("not prime")
       condition =false
       break;
@@ -145,3 +145,16 @@ function  game(num){
 }
 
 // game(699) 
+
+// 10. Ticket Booking (Random Seats)
+let booking =(sets) =>{
+let numbers = Math.floor( Math.random()*50)
+
+if(sets<=numbers){
+    console.log("Booking confirmed")
+}else{
+    console.log("too late seats housefull")
+}
+}
+
+booking(10)
