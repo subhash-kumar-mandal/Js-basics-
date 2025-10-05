@@ -18,3 +18,14 @@ if(password === ""){
     console.log("password accepted")
 }
 
+
+
+// 2. किसी character को input लो और चेक करो vowel है या consonant।
+let check = (input1) => {
+    let input = input1.toLowerCase() 
+    if(input==="a" ||input==="e" ||input==="u" ||input==="i" || input==="o"){
+        console.log("yes vowel")
+    }
+}
+
+check("a")
