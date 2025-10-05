@@ -95,4 +95,21 @@ function calculator(num,num1,work){
     }
 }
 
-calculator(10,20,"*")
+// calculator(10,20,"*")
+
+
+// 7. Electricity bill calculator बनाओ ;
+
+let bill = (price)=>{
+if(price>=0 && price<=200){
+    console.log(`pay your bill ${price*3} Rs`)
+}else if(price>=201 && price<=400){
+      console.log(`pay your bill ${price*4.50} Rs`)
+}else if(price>=401 && price<=800){
+      console.log(`pay your bill ${price*6.50} Rs`)
+}else {
+      console.log(`pay your bill ${price*7} Rs`)
+}
+}
+
+// bill(399)
