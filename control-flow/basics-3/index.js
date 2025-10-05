@@ -129,3 +129,19 @@ let exam_allowed =(number) =>{
 }
 
 // exam_allowed(100)
+
+
+// 9. guess game user input 
+
+function  game(num){
+    let guess =699;
+    if(num === guess){
+        console.log("Number match you win")
+    }else if (num<guess){
+        console.log("too low number enter")
+    }else{
+        console.log("too high number enter")
+    }
+}
+
+// game(699) 
