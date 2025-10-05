@@ -76,4 +76,23 @@ for(let j=2;j<check;j++){
 if(condition) console.log("yes prime")
 }
 
-find(7)
+// find(7)
+
+
+
+// 6.Calculator बनाओ: दो नंबर और एक operator (+, -, *, /) लो और result दिखाओ।
+
+function calculator(num,num1,work){
+    switch(work){
+        case "+" : console.log(num+num1)
+        break ;
+         case "-" : console.log(num-num1)
+        break ;
+         case "*" : console.log(num*num1)
+        break ;
+         case "/" : console.log(num/num1)
+        break ;
+    }
+}
+
+calculator(10,20,"*")
