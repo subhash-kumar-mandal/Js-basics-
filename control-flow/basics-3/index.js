@@ -113,3 +113,19 @@ if(price>=0 && price<=200){
 }
 
 // bill(399)
+
+
+
+// 8. Student attendance लो (percentage) और चेक करो: <75% तो "Not allowed in exam", वरना "Allowed"।
+
+let exam_allowed =(number) =>{
+    let find = (number/365)*100
+    let percentage = find.toFixed(2)
+    if(percentage>=75){
+        console.log(`Attendane good ${percentage}% student allowed`)
+    }else{
+        console.log(`attendane to low ${percentage}% student not allowed`)
+    }
+}
+
+// exam_allowed(100)
