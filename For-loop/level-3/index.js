@@ -27,3 +27,20 @@ let mini =arra.reduce((curr,sec) =>{
 return mini
 }
 console.log(mini([1,2,3,45,6,7]))
+
+
+// 3. count even or odd number 
+
+function count(arra){
+    let even = 0;
+    let odd = 0;
+    for(let j=0;j<arra.length;j++){
+        if(arra[j]%2===0){
+            even++
+        }else{
+            odd++
+        }
+    }
+  return `even count ${even} and odd count ${odd}`
+}
+console.log(count([1,2,3,45,6,7]))
