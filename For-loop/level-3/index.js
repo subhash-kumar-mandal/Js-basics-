@@ -43,4 +43,21 @@ function count(arra){
     }
   return `even count ${even} and odd count ${odd}`
 }
-console.log(count([1,2,3,45,6,7]))
+console.log(count([1,2,3,45,6,7]));
+
+
+
+// 4.count vowels 
+let vowels =(str1) => {
+    let count = 0;
+    let str = str1.toLowerCase()
+    for(let i=0;i<str.length;i++){
+        if(str[i] ==="a" || str[i] ==="e" ||str[i] ==="i" || str[i] ==="u"||str[i] ==="u"){
+          count++
+        }
+    }
+
+    return `vowel count ${count}`
+}
+
+console.log(vowels("javascript"))
