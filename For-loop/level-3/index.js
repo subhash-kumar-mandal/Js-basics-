@@ -60,4 +60,19 @@ let vowels =(str1) => {
     return `vowel count ${count}`
 }
 
-console.log(vowels("javascript"))
+console.log(vowels("javascript"));
+
+
+
+// 5. number digit sum 
+
+let sumdigit =(string) =>{
+    let number = string.toString()
+    let sum = 0;
+    for(let i=0;i<number.length;i++){
+        sum += Number(number[i])
+    }
+    return `sum -> ${sum}`
+}
+
+console.log(sumdigit(1234))
