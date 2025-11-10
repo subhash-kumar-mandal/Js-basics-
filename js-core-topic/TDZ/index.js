@@ -25,3 +25,14 @@ var b=20;
     var num1 =20;
     const num2 =30;
 }
+
+
+function     hello(){
+    // console.log(num) refferance error 
+    console.log(num1)
+    // console.log(num2) refferance error
+
+    let num = 10;
+    var num1 =20;
+    const num2 =30;
+}
