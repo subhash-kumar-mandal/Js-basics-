@@ -69,4 +69,4 @@ let b = 10;
 }
 
 
-// यहाँ technically shadowing है, लेकिन हम inner वाले x को declaration से पहले access कर रहे हैं, इसलिए TDZ error आता है।
+// यहाँ technically shadowing है, लेकिन हम inner वाले b को declaration से पहले access कर रहे हैं, इसलिए TDZ error आता है।
